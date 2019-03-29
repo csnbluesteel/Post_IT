@@ -72,9 +72,16 @@ This app will use different API's to collect IT related job postings. The user w
 <img src="https://i.imgur.com/a2tLtgr.gif" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | Username      | String   | unique hashed id for the user |
+   | Password      | String   | hashed password for the user|
+   | Email         | String   | hashed email for the user |
+   | Job Post      | String   | Saved post for future access |
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
