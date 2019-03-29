@@ -80,7 +80,7 @@ This app will use different API's to collect IT related job postings. The user w
    | Username      | String   | unique hashed id for the user |
    | Password      | String   | hashed password for the user|
    | Email         | String   | hashed email for the user |
-   | Job Post      | String   | Saved post for future access |
+   | Job Post      | JSON Object  | Saved post for future access |
 
 ### Networking
 - [Add list of network requests by screen ]
