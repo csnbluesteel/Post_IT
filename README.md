@@ -69,6 +69,7 @@ This app will use different API's to collect IT related job postings. The user w
 <img src="https://i.imgur.com/0HXgNpZ.png" width=600>
 
 ### [BONUS] Interactive Prototype
+<img src="https://i.imgur.com/a2tLtgr.gif" width=600>
 
 ## Schema 
 [This section will be completed in Unit 9]
