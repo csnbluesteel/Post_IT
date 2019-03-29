@@ -84,12 +84,12 @@ This app will use different API's to collect IT related job postings. The user w
 
 ### Networking
 - Login screen
-  -(Read/GET) Verify username and password to access account
+  - (Read/GET) Verify username and password to access account
 - Search screen
-  -(Read/GET) Retrieve posts searched by user      
+  - (Read/GET) Retrieve posts searched by user      
 - Save screen
-  -(Update/PUT) Save job post to user
+  - (Update/PUT) Save job post to user
 - View screen
-  -(Read/GET) Retrieve and display a single job post
+  - (Read/GET) Retrieve and display a single job post
       
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
