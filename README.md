@@ -80,9 +80,16 @@ This app will use different API's to collect IT related job postings. The user w
    | Username      | String   | Unique hashed id for the user |
    | Password      | String   | Hashed password for the user|
    | Email         | String   | Hashed email for the user |
-   | Job Post      | JSON Object  | Saved post for future access |
+   | Job Post      | JSON Object | Job posts saved by user  |
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+- Login screen
+  -(Read/GET) Verify username and password to access account
+- Search screen
+  -(Read/GET) Retrieve posts searched by user      
+- Save screen
+  -(Update/PUT) Save job post to user
+- View screen
+  -(Read/GET) Retrieve and display a single job post
+      
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
