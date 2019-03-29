@@ -77,9 +77,9 @@ This app will use different API's to collect IT related job postings. The user w
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | Username      | String   | unique hashed id for the user |
-   | Password      | String   | hashed password for the user|
-   | Email         | String   | hashed email for the user |
+   | Username      | String   | Unique hashed id for the user |
+   | Password      | String   | Hashed password for the user|
+   | Email         | String   | Hashed email for the user |
    | Job Post      | JSON Object  | Saved post for future access |
 
 ### Networking
