@@ -17,7 +17,7 @@ This app will use different API's to collect IT related job postings. The user w
 - **Story:** Lets the user search for IT jobs while on the go and lets them save or apply for the job. A desktop companion app would allow the user to apply for a job saved on the mobile app if the process is too hard on mobile.
 - **Market:** Anyone looking for an job in an IT related field.
 - **Habit:** Job seekers would be using this app throughout the day to look up new job postings or access existing job aplications.
-- **Scope:** V1 Allow the user to search for job postings from different API's then  V2 
+- **Scope:** V1 Allow the user to search for job postings from different API's and save them to apply for later. User will be able to open a link directly to the application page. V2 App would let user email apps to themselves to be able to apply on a desktop. 
 
 ## Product Spec
 
@@ -25,45 +25,48 @@ This app will use different API's to collect IT related job postings. The user w
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can create an account entering name, password,and email.
+* User can search for job postings
+* User can save job postings
+* User can click on a link and follow the job application page
+* User can view a job application
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can email the job posting to themselves
+* User can apply for a job on the app
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login screen
+   * User can login to an existing account or be directed to the signup screen
+* Signup screen
+   * User can sign up for an account by suppliying name, email and a password
+* Search screen
+   * User can search for job postings
+* Saved job applications
+* View a job application
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Search IT
+* Save IT
+* Log out
+* Settings
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login -> Sign up if no account has been created
+* Search for a job application -> View a job posting -> Save a job posting
+* Settings -> Modify search results
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://i.imgur.com/1Oa5uLC.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.imgur.com/0HXgNpZ.png" width=600>
 
 ### [BONUS] Interactive Prototype
 
